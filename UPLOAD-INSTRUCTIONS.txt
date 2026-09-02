@@ -1,0 +1,23 @@
+ZUBAIR FRESH FISH — GITHUB PAGES & HOSTING INSTRUCTIONS
+======================================================
+
+This package uses relative asset paths and works on GitHub Pages repository
+URLs and normal cPanel hosting.
+
+GITHUB PAGES
+------------
+1. Extract zubair-fresh-fish-hosting-ready.zip on your computer.
+2. Upload all extracted files and folders to the GitHub repository root.
+3. Confirm index.html, .nojekyll, assets/, and both PNG files are in the root.
+4. Open repository Settings > Pages.
+5. Select Deploy from a branch, then main and /(root), and save.
+6. Wait for deployment and hard-refresh with Ctrl+F5.
+
+CPANEL / SHARED HOSTING
+-----------------------
+1. Open cPanel > File Manager > public_html.
+2. Upload and extract the ZIP inside public_html.
+3. Make sure index.html is directly inside public_html.
+4. Enable Show Hidden Files to confirm .htaccess exists.
+
+This is a static website and needs no PHP, Node.js, npm, or database.
